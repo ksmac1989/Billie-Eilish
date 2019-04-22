@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tour</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+		<link rel="stylesheet" href="https://use.typekit.net/bum4ghw.css">
+
+		<script type="text/javascript" src="js/d3.min.js"></script>
+
+	</head>
+
+	<body class="body-music">
+	<!-- navigator -->
+		<!-- <nav class="navigation">
+			<a href="#header"><img src="img/nav/billie-eilish-logo.svg" alt="billie-eilish-logo" class="billie-eilish-logo"></a>
+			<ul>
+				<li ><a href="index.html">ABOUT</a></li>
+				<li >SIGN UP</li>
+				<li ><a href="tour.html">TOUR</a></li>
+				<li ><a href="music.html">MUSIC</a></li>
+
+			</ul>
+		</nav> -->
+
+
+	<section id="ticket" class="ticket ticket-wrapper">		
+		<div id="chart"> </div>
+		<div id="tooltip"> </div>
+	
+		<script type="text/javascript">
+			var width = 1000, height = 500, margin = 50;
+			var circles, xScale, yScale, xAxis, yAxis, tooltip, axisLabel;
+	 
+			var svg = d3.select('#chart')
+				.append('svg')
+				.attr('width',width + 'px')
+				.attr('height',height + 'px');
+	
+			d3.csv('csv/billie-eilish.csv', function(error,data){
+				console.log(data)
+	
+				xMinMax = d3.extent(data,function(d){
+					return parseFloat(d.Streams);
+				});
+	
+				yMinMax = d3.extent(data,function(d){
+					return parseFloat(d.USPeak);
+				});
+	
+				rMinMax = d3.extent(data,function(d){
+					return parseFloat(d.Time);
+				});
+	
+				xScale = d3.scaleLinear()
+					.domain([xMinMax[0],xMinMax[1]])
+					.range([margin,width-margin]);
+				
+				yScale = d3.scaleLinear()
+					.domain([yMinMax[0],yMinMax[1]])
+					.range([margin,height-margin]);   
+				
+				rScale = d3.scaleLinear()
+					.domain([rMinMax[0],rMinMax[1]])
+					.range([2,50]);  
+					
+				cScale = d3.scaleOrdinal()
+					.domain([0,1])
+					.range(['#666','#ff6600']) 
+	
+				circles = svg.selectAll('.dot')
+					.data(data)
+					.enter()
+					.append('circle')
+					.attr('class','dot')
+					.attr('cx',function(d){
+						return xScale(d.Streams);
+					})
+					.attr('cy',function(d){
+						return yScale(d.USPeak);
+					})
+					.attr('r',function(d){
+						return rScale(d.Time);
+					})
+					.attr('fill',function(d){
+						return cScale(d.AlbumNumber);
+					})
+					.style('opacity',0.8)
+					.on('mouseover',function(d){
+						html = 'Track:' + d.Track + '</br>';
+						html += 'Streams:' + d.Streams + '</br>';
+						html += 'US Peak:' + d.USPeak + '</br>';
+						html += 'Album:' + d.Album + '</br>';
+	
+						d3.select('#tooltip')
+							.style('left',d3.event.pageX -120)
+							.style('top',d3.event.pageY -120)
+							.attr('class','tooltip')
+							.html(html)
+							.style('opacity',0.8)
+					
+					});
+				
+				
+				update();
+			});    
+	
+		</script>
+	</section>
+
+
+</body>
+</html>

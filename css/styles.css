@@ -18,6 +18,10 @@ body{
 	background-image: url(../img/body/body-background.jpg);
 }
 
+.body-music{
+	background-image: url(../img/body/body-background.jpg);
+}
+
 img{
 	max-width: 100%;
 }
@@ -303,3 +307,39 @@ li{
 }
 
 
+#chart{
+	background-color: #ccc;
+	width:1000px;
+	height:500px;
+	margin:50px auto;
+	border: solid 1px #000000;
+}
+
+.chart-wrapper{
+	margin-top: 500px;
+}
+
+.dot{
+	stroke: #000;
+	stroke-width: 0.5px;
+}
+
+#tooltip{
+	/* position: absolute; */
+	background-color: white;
+	padding: 20px;
+	border: solid 1px #000;
+	opacity: 0;
+}
+
+.tooltip{
+	font-family: Helvetica,sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+
+.axisLabel{
+	fill: #bbb; 
+	font-family: Helvetica,sans-serif;
+	font-size: 12px;
+}

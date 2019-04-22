@@ -1,0 +1,205 @@
+[
+  {
+    "Date": "Friday, May 3rd, 2019",
+    "Time": "7.00 PM",
+    "Location": "Margaret Court Arena",
+    "City": "Melbourne, Australia",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Saturday, May 4th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Prince of Wales Showground",
+    "City": "Bendigo, Australia",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Sunday, May 5th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Murray Sports Complex",
+    "City": "Townsville, Australia",
+    "Status": "Available"
+  },
+  {
+    "Date": "Tuesday, May 7th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Riverstage",
+    "City": "Brisbane, Australia",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Friday, May 10th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Fremantle Arts Centre",
+    "City": "Fremantle, Australia",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Saturday, May 11th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Hay Park",
+    "City": "Bunbury, Australia",
+    "Status": "Available"
+  },
+  {
+    "Date": "Saturday, May 25th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Stewart Park",
+    "City": "Middlesbrough, United Kingdom",
+    "Status": "Available"
+  },
+  {
+    "Date": "Wednesday, May 29th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Bill Graham Civic Auditorium",
+    "City": "San Francisco, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Friday, May 31st, 2019",
+    "Time": "7:00 PM",
+    "Location": "Moda Center",
+    "City": "Portland, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Saturday, June 1st, 2019",
+    "Time": "7:00 PM",
+    "Location": "PNE Amphitheatre",
+    "City": "Vancouver, Canada",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Sunday, June 2nd, 2019",
+    "Time": "7:00 PM",
+    "Location": "Marymoor Park",
+    "City": "Redmond, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Tuesday, June 4th, 2019",
+    "Time": "7:00 PM",
+    "Location": "The Great Saltair",
+    "City": "Salt Lake City, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Wednesday, June 5th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Red Rocks Amphitheatre",
+    "City": "Morrison, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Friday, June 7th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Silverstein Eye Centers Arena",
+    "City": "Kansas City, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Saturday, June 8th, 2019",
+    "Time": "7:00 PM",
+    "Location": "The Armory",
+    "City": "Minneapolis, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Sunday, June 9th, 2019",
+    "Time": "2:00 PM",
+    "Location": "Aragon Ballroom (Early Show)",
+    "City": "Chicago, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Sunday, June 9th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Aragon Ballroom",
+    "City": "Chicago, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Sunday, June 11th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Budweiser Stage",
+    "City": "Toronto, Canada",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Wednesday, June 12th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Place Bell",
+    "City": "Laval, Canada",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Friday, June 14th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Rockland Trust Bank Pavillion",
+    "City": "Boston, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Saturday, June 15th, 2019",
+    "Time": "7:00 PM",
+    "Location": "The Met Philadelphia",
+    "City": "Philadelphia, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Tuesday, June 18th, 2019",
+    "Time": "7:00 PM",
+    "Location": "The Rooftop at Pier 17",
+    "City": "New York, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Wednesday, June 19th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Radio City Music Hall",
+    "City": "New York, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Thursday, June 20th, 2019",
+    "Time": "7:00 PM",
+    "Location": "The Anthem",
+    "City": "Washington, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Friday, June 21st, 2019",
+    "Time": "7:00 PM",
+    "Location": "Ascend Amphitheater",
+    "City": "Nashville, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Sunday, June 23rd, 2019",
+    "Time": "7:00 PM",
+    "Location": "State Bank Amphitheatre at Chastain Park",
+    "City": "Atlanta, United State",
+    "Status": "Sold Out"
+  },
+  {
+    "Date": "Wednesday, June 26th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Glastonbury Festival",
+    "City": "Pilton, United Kingdom",
+    "Status": "Available"
+  },
+  {
+    "Date": "Thursday, June 27th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Glastonbury Festival",
+    "City": "Pilton, United Kingdom",
+    "Status": "Available"
+  },
+  {
+    "Date": "Thursday, June 27th, 2019",
+    "Time": "7:00 PM",
+    "Location": "Tusindaarsskoven",
+    "City": "Odense, Denmark",
+    "Status": "Available"
+  }
+]

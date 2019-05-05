@@ -8,32 +8,31 @@ body{
 	font-family: titling-gothic-fb, sans-serif;
 	color: white;
 
-	background-image: url(../img/body/body-background-with-strokes.jpg);
+	background-image: url(../img/body/background.jpg);
 	background-size: cover;
 	height: 100vh;
 	background-repeat: no-repeat;
-}
-
-.body-tour{
-	background-image: url(../img/body/body-background.jpg);
-}
-
-.body-music{
-	background-image: url(../img/body/body-background.jpg);
 }
 
 img{
 	max-width: 100%;
 }
 
-p{
+p {
 	font-size: 16px;
 	font-weight: 200;
 	line-height: 160%;
 	color: #7d7d7d;
 }
+#map-description{
+	font-size: 12px;
+	font-weight: 200;
+	line-height: 160%;
+	color: #7d7d7d;
+}
 
-h2{
+
+h1{
 	display: inline;
 	font-family: titling-gothic-fb, sans-serif;
 	font-size: 25px;
@@ -43,16 +42,25 @@ h2{
 	background: #fdd33e;
 }
 
-h3{
+
+#map-headline{
 	display: inline;
 	font-family: titling-gothic-fb, sans-serif;
 	font-size: 20px;
+	font-weight: 500;
+	color:#000000;
+}
+
+h2{
+	display: inline;
+	font-family: titling-gothic-fb, sans-serif;
+	font-size: 18px;
 	text-align: left;
 	font-weight: 300;
 	line-height: 150%;
 }
 
-h4{
+h3{
 	font-family: titling-gothic-fb, sans-serif;
 	font-size: 20px;
 	font-weight: 500;
@@ -62,7 +70,7 @@ h4{
 	background: #fdd33e;
 }
 
-h5{
+h4{
 	display: inline-block;
 	font-family: titling-gothic-fb, sans-serif;
 	font-size: 25px;
@@ -71,19 +79,27 @@ h5{
 	background: #fdd33e;
 }
 
-h6{
+
+h5{
 	font-size: 16px;
 	font-weight: 200;
-	color: white;
+	color: #7d7d7d;
 	margin-top: -15px;
 	margin-left: 40px;
+	line-height: 120%;
 }
 
-.ticket-em{
-	font-size: 16px;
+h5 a{
+	font-size: 16px;	
+	font-style: italic;
 	font-weight: 200;
+	color: #7d7d7d;
+	text-decoration: none;
+}
+
+h5 a:hover{
+	font-weight: 300;
 	color: white;
-	margin-top: -10px;
 }
 
 
@@ -113,12 +129,13 @@ em{
 }
  
 /* navigation*/
-
 .billie-eilish-logo{
-	max-width: 18%;
+	max-width: 22%;
+	margin-top: -12px;
 	position: fixed;
 	z-index: 1;
 }
+
 nav{
 	font-family: titling-gothic-fb-wide, sans-serif;
 	left: 0;
@@ -126,6 +143,12 @@ nav{
 	position: fixed;
 	z-index: 1;
 	
+}
+
+.navigation {
+	margin-top: 70px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .navigation li{
@@ -137,18 +160,13 @@ nav{
 	font-weight: 300;
 }
 
-.navigation {
-	margin-top: 70px;
-	margin-left: 100px;
-	margin-right: 100px;
-}
-
 .navigation li a{
 	color: rgba(255, 255, 255, 0.5);
 	text-decoration: none;
 	font-weight: 300;
 	
 }
+
 .navigation li a:hover{
 	color: rgba(0, 0, 0, 1);
 	background-color: #fdd33e;
@@ -156,13 +174,38 @@ nav{
 
 }
 
+/* #nav-selected{
+	color: rgba(0, 0, 0, 1);
+	background-color: #fdd33e;
+	font-weight: 500;
+
+} */
+
+#nav-selected{
+	color: white;
+	font-weight: 500;
+}
+
+#nav-selected:hover{
+	color: rgba(0, 0, 0, 1);
+	font-weight: 500;
+}
+
+
 .navigation :not(:first-child) {
 	float: right;
-	
-
 }
 
 /* header */
+.page-info {
+	position: absolute;
+	margin-left: 30%;
+	margin-top: 18%;
+	max-width: 40%;
+	z-index: 1;
+}
+
+
 .slideshow {
 	background-size: cover;
 	height: 100%;
@@ -219,6 +262,7 @@ nav{
 .billie-eilish-headline{
 	max-width: 60%;
 	margin-top: 20px;
+	margin-left: -5px;
 	margin-bottom: 20px;
 }
 
@@ -231,6 +275,14 @@ nav{
 }
 
 /* music */
+.music-wrapper{
+	max-width: 70vw;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .music-description{
 	margin-top: 100px;
 }
@@ -246,6 +298,18 @@ nav{
 
 .album-description{
 	margin-left: 20px;
+}
+
+.image-album-scratch-01{
+	position: absolute;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+
+.image-album-scratch-02{
+	position: absolute;
+	margin-left: -10px;
+	margin-top: -10px;
 }
 
 /* gallery */
@@ -273,6 +337,63 @@ nav{
 	margin-right: 30px;
 }
 
+/* newsletter */
+.linebreak{
+	max-width: 100vw;
+	margin-top: 50px;
+	margin-left: -30px;
+	margin-right: auto;
+	align-items: center;
+	align-content: center;
+}
+
+.newsletter-wrapper{
+	max-width: 70vw;
+	margin-top: 50px;
+	margin-bottom: -20px;
+	margin-left: -30px;
+	margin-right: auto;
+	align-items: center;
+	align-content: center;
+}
+
+.subscribe{
+	max-width: 80%;
+}
+
+.newsletter_form_container
+{
+	margin-top: -8px;
+	margin-left: -100px;
+	height: 100%;
+}
+
+.newsletter_input
+{
+	width: 300px;
+	height: 25px;
+	padding-left: 10px;
+
+	font-family: titling-gothic-fb, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.newsletter_button
+{
+	background-color: #fdd33e;
+	margin-left: 10px;
+	width: 120px;
+	height: 25px;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+	
+	font-family: titling-gothic-fb, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
 
 /* ticket */
 .ticket-wrapper{
@@ -281,10 +402,6 @@ nav{
 	margin-bottom: 100px;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.ticket-description{
-	margin-top: 100px;
 }
 
 #searcharea{
@@ -299,47 +416,23 @@ nav{
 
 #update ul{
 	list-style: none;
-	margin-top: -30px;
+	margin-top: -10px;
 }
 
 li{
-	margin-top: -30px;
+	margin-top: -10px;
 }
 
-
-#chart{
-	background-color: #ccc;
-	width:1000px;
-	height:500px;
-	margin:50px auto;
-	border: solid 1px #000000;
+/* music-page */
+.music-page-wrapper{
+	max-width: 70vw;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.chart-wrapper{
-	margin-top: 500px;
+.music-page-description{
+	margin-top: 100px;
 }
 
-.dot{
-	stroke: #000;
-	stroke-width: 0.5px;
-}
-
-#tooltip{
-	/* position: absolute; */
-	background-color: white;
-	padding: 20px;
-	border: solid 1px #000;
-	opacity: 0;
-}
-
-.tooltip{
-	font-family: Helvetica,sans-serif;
-	font-size: 12px;
-	color: #000;
-}
-
-.axisLabel{
-	fill: #bbb; 
-	font-family: Helvetica,sans-serif;
-	font-size: 12px;
-}

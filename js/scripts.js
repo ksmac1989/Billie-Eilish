@@ -22,7 +22,7 @@ $('#search').keyup(function(){
   var searchField = $('#search').val();
   var myExp = new RegExp(searchField, "i");
 
-  $.getJSON('./json/ticket.json', function(data) {
+  $.getJSON('./json/tour.json', function(data) {
       var output = '<ul class = "searchresults">';
       $.each(data, function(key, val){
 
@@ -31,10 +31,10 @@ $('#search').keyup(function(){
           (val.City.search(myExp)!= -1) || 
           (val.Time.search(myExp) != -1)) {
               output += '<li>';
-              output += '<h5>' + val.Date + '</h5>';
-              output += '<h6>' + 'Location: ' + val.Location + '</h6>';
-              output += '<h6>' + 'City/Country: ' + val.City + '</h6>';
-              output += '<h6>' + 'Status: ' + val.Status + '</h6>';
+              output += '<h4>' + val.Date + '</h4>';
+              output += '<h5>' + 'Location: ' + '<em>' + val.Location + '</em>' + '</h5>';
+              output += '<h5>' + 'City/Country: ' + '<em>' + val.City + '</em>' + '</h5>';
+              output += '<h5><a href="./map/' + val.Map + '.html" target="_blank">' + 'map' + '</a></h5>';
               output += '</li>';
           }
 
@@ -43,3 +43,14 @@ $('#search').keyup(function(){
       $('#update').html(output);
   });
 })
+
+// $(function() {
+//   $("#animate").hover(
+//       function() {
+//           $(this).attr("src", "./img/about/music/music-01-scratch.gif");
+//       },
+//       function() {
+//           $(this).attr("src", "./img/about/music/music-01-scratch.png");
+//       }                         
+//   );                  
+// });

@@ -1,0 +1,412 @@
+/* universal */
+html{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	font-family: titling-gothic-fb, sans-serif;
+	color: white;
+
+	background-image: url(../img/body/background.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+div
+{
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul
+{
+	list-style: none;
+	margin-bottom: 0px;
+}
+p {
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 160%;
+	color: #7d7d7d;
+}
+h1{
+	display: inline;
+	font-family: titling-gothic-fb, sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 150%;
+	color:#000000;
+	background: #fdd33e;
+}
+h2{
+	display: inline;
+	font-family: titling-gothic-fb, sans-serif;
+	font-size: 18px;
+	text-align: left;
+	font-weight: 300;
+	line-height: 150%;
+}
+h3{
+	font-family: titling-gothic-fb, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 120%;
+	display: inline;
+	color:#000000;
+	background: #fdd33e;
+}
+h4{
+	display: inline-block;
+	font-family: titling-gothic-fb, sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	color:#000000;
+	background: #fdd33e;
+}
+h5{
+	font-size: 16px;
+	font-weight: 200;
+	color: #7d7d7d;
+	margin-top: -15px;
+	margin-left: 40px;
+	line-height: 120%;
+}
+p a
+{
+	display: inline;
+	position: relative;
+	color: inherit;
+	border-bottom: solid 1px #fdd33e;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+p:last-of-type
+{
+	margin-bottom: 0;
+}
+a
+{
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+a, a:hover, a:visited, a:active, a:link
+{
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+p a:active
+{
+	position: relative;
+	color: #fdd33e;
+}
+p a:hover
+{
+	color: #FFFFFF;
+	background: #fdd33e;
+}
+p a:hover::after
+{
+	opacity: 0.2;
+}
+
+img
+{
+	max-width: 100%;
+}
+
+
+/* Songs */
+.album_cover
+{
+	margin-left: 50px;
+}
+.songs
+{
+	margin-left: -10px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.songs-album02{
+	margin-bottom: -40px;
+}
+.songs_title
+{
+	margin-top: 50px;
+}
+
+.songs_text
+{
+	margin-top: 10px;
+	max-width: 350px;
+}
+
+.songs_text p
+{
+	font-size: 16px;
+}
+
+.artist_store
+{
+	margin-top: 40px;
+}
+.store
+{
+	width: 60px;
+}
+.store:not(:last-child)
+{
+	margin-right: 15px;
+}
+.songs_container
+{
+	max-width: 600px;
+}
+.song:not(:last-child)
+{
+	margin-bottom: 18px;
+}
+.single_player_container
+{
+	max-width: 600px;
+}
+.single_player
+{
+	width: 100%;
+	background: #101010;
+	opacity: 0.9;
+	padding-left: 23px;
+	padding-right: 55px;
+}
+.single_player_inner
+{
+	height: 102px;
+}
+.jp-audio
+{
+	width: 100%;
+}
+.time_controls
+{
+	width: calc(100% - 193px);
+	flex: 0 0 auto;
+}
+.player_controls_box
+{
+	width: 84px;
+	padding-right: 25px;
+	flex: 0 0 auto;
+}
+.player_bars
+{
+	width: calc(100% - 84px);
+}
+.player_progress_box
+{
+	width: calc(100% - 193px);
+}
+.player_controls > button:not(:last-of-type)
+{
+	margin-right: 5px;
+}
+.play_button
+{
+	width: 100%;
+}
+.player_button
+{
+	position: relative;
+	width: 27px;
+	height: 27px;
+	background: transparent;
+	border: solid 3px #7d7d7d;
+	border-radius: 50%;
+	outline: none !important;
+	cursor: pointer;
+	flex: 0 0 auto;
+}
+.player_button.jp-play
+{
+	border-color: #7d7d7d;
+}
+.player_button::after
+{
+	display: block;
+	position: absolute;
+}
+.jp-play::after
+{
+	left: 6px;
+	top: 4px;
+	width: 6px;
+	height: 6px;
+	content: url(../img/music/songs/play_small.png);
+}
+.jp-state-playing .jp-play
+{
+	border-color: #7d7d7d;
+}
+.jp-state-playing .jp-play::after
+{
+	top: 4px !important;
+	left: 4.5px !important;
+	content: url(../img/music/songs/pause_small.png);
+	left: 50%;
+}
+.jp-stop::after
+{
+	top: 6px;
+	left: 7px;
+	width: 8px;
+	height:8px;
+	background: #7d7d7d;
+	content: '';
+}
+.song_info
+{
+	position: absolute;
+	top: -25px;
+	left: 0;
+}
+.jp-artist
+{
+	font-size: 1px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-top: -1px;
+}
+.jp-title
+{
+	font-size: 12px;
+	font-weight: 400;
+	color: white;
+}
+.jp-progress
+{
+	width: 100%;
+	cursor: pointer;
+}
+.jp-seek-bar
+{
+	height: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: transparent;
+	margin-bottom: -5px;
+}
+.jp-seek-bar > div
+{
+	height: 2px;
+	background: #7d7d7d;
+}
+.jp-play-bar
+{
+	height: 100%;
+	background: #fdd33e;
+	overflow: visible !important;
+}
+.jp-play-bar > span
+{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: -6px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #fdd33e;
+}
+.jp-current-time
+{
+	position: absolute;
+	bottom: -35px;
+	left: 0;
+	font-size: 10px;
+	font-style: italic;
+	font-weight: 200;
+	color: #7d7d7d;
+}
+.jp-duration
+{
+	position: absolute;
+	bottom: -35px;
+	right: 0;
+	font-size: 10px;
+	font-style: italic;
+	font-weight: 200;
+	color: #7d7d7d;
+}
+.jp-volume-controls
+{
+	width: 190px;
+	padding-left: 40px;
+	flex: 0 0 auto;
+}
+.jp-volume-controls > div:first-child
+{
+	
+}
+.mute_button
+{
+	position: absolute;
+	left: 40px;
+	bottom: 30px;
+}
+.jp-mute
+{
+	position: relative;
+	background: transparent;
+	border: none;
+	outline: none !important;
+	cursor: pointer;
+}
+.jp-mute::after
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: url(../img/music/songs/mute_off_small.png);
+}
+.jp-state-muted .jp-mute::after
+{
+	content: url(../img/music/songs/mute_on_small.png);
+}
+.jp-volume-bar
+{
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: transparent;
+	overflow: hidden;
+	cursor: pointer;
+}
+.jp-volume-bar > div
+{
+	width: 100%;
+	height: 100%;
+	height: 2px;
+	background: #7d7d7d;
+}
+.jp-volume-bar-value
+{
+	height: 100%;
+	background: #fdd33e;
+}

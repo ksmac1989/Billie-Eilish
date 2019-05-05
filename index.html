@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Billie Eilish</title>
+		<title>About</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/styles.css" type="text/css">
 		<link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
@@ -12,184 +12,218 @@
 	<body>
 	<!-- navigator -->
 		<nav class="navigation">
-			<a href="#header"><img src="img/nav/billie-eilish-logo.svg" alt="billie-eilish-logo" class="billie-eilish-logo"></a>
+			<a href="#header"><img src="img/nav/billie-eilish-logo.gif" alt="billie-eilish-logo" class="billie-eilish-logo"></a>
 			<ul>
-				<li ><a href="index.html">ABOUT</a></li>
-				<li >SIGN UP</li>
-				<li ><a href="tour.html">TOUR</a></li>
-				<li ><a href="music.html">MUSIC</a></li>
+				<li ><a href="index.html" class="nav-selected">ABOUT</a></li>
+				<li > SIGN UP </li>
+				<li ><a href="tour.html"> TOUR </a></li>
+				<li ><a href="music.html"> MUSIC </a> </li>
 
 			</ul>
 		</nav>
 
 	<!-- header-->
-		<header id="header">
-			<!-- <div class="slideshow">
+		<header id="header">		
+			<a href=""><img src="img/about/page-info/page-info-about.gif" alt="Page Info" class="page-info"></a>	
+			<div class="slideshow">
 				<div class="slideshow-wrapper">
 				
 					<div class="slide">
-						<img src="img/home-page/header/header-background-01.png">
+						<img src="img/about/header/header-background-01.png">
 					</div>
 						
 					<div class="slide">
-						<img src="img/home-page/header/header-background-02.png">
+						<img src="img/about/header/header-background-02.png">
 					</div>
 
 					<div class="slide">
-							<img src="img/home-page/header/header-background-03.png">
+							<img src="img/about/header/header-background-03.png">
 					</div>
 
 					<div class="slide">
-							<img src="img/home-page/header/header-background-04.png">
+							<img src="img/about/header/header-background-04.png">
 					</div>		
 			</div>
 			
 			<a class="prev" onclick="plusDivs(-1)">&#10094;</a>
-			<a class="next" onclick="plusDivs(1)">&#10095;</a> -->
-
-			
-			<div class="slideshow">
-				<div class="slideshow-wrapper">
-					<video autoplay onclick="this.paused ? this.play() : this.pause();" width='100%'>
-					  <source src='video/videoframe_02.mp4' type='video/mp4'>
-					</video>
-			</div>
-
-
+			<a class="next" onclick="plusDivs(1)">&#10095;</a>
 		</header>	
-	  
-	<!-- biography -->
-		<section class="biography biography-wrapper" id="about">		
+	
+		<!-- biography -->
+		<section class="biography biography-wrapper">		
 		
-			<img src="img/home-page/biography/billie-eilish-headline.svg" alt="billie-eilish-headline" class="billie-eilish-headline"></img>
-
-			<div class="biography-description">
-				<div class="description-row">
-					<h2> Billie Eilish Pirate Baird O'Connell, is an American singer and songwriter,  <h2>
-				</div>
-				<div class="biography-description-row">
-					<h2> She loved acting in homemade films and also sang and danced.<h2>
-				</div>
-			</div>
-
-			<div class="row row-space aligned-left">
-				<div class="col col-wrapper">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-					</p>
-				</div>
-
-				<div class="col col-wrapper">
-					<p> totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
-					sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
-					</p>
-				</div>
-			</div>
-		<section>
-		
-	<!-- music -->
-		<section id="music">		
-			<div class="music-description">
-				<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor<br>
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br> 
-					commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-				</h3>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-				</p>	
-			</div>
-
-			<div class="row row-space align-items-center album01">
-				<div class="col col-wrapper aligned-right">
-					<img src="img/home-page/music/music-02.png" alt="" class="image-album"></img>
+				<img src="img/about/biography/billie-eilish-headline.svg" alt="billie-eilish-headline" class="billie-eilish-headline" onmouseenter="this.src = 'img/about/biography/billie-eilish-headline-alt.svg';" onmouseleave="this.src = 'img/about/biography/billie-eilish-headline.svg';"></img>
+	
+				<div class="biography-description">
+					<div class="description-row">
+						<h1> Billie Eilish Pirate Baird O'Connell, is an American singer and songwriter,  <h1>
+					</div>
+					<div class="biography-description-row">
+						<h1> She loved acting in homemade films and also sang and danced.<h1>
+					</div>
 				</div>
 	
-				<div class="col col-wrapper album-description">
-					<h4> DONT SMILE AT ME</h4>
-					<p> <em>JULY 28, 2017</em> / release date <br>
-						<em>EP</em> / format <br>
-						<em>INTERSCOPE</em> / label <br>
-						<em>ELECTROPOP</em> / genres
-					</p>
+				<div class="row row-space aligned-left">
+					<div class="col col-wrapper">
+						<p>O'Connell was born in Los Angeles, California, on December 18, 2001. She is the daughter of Maggie Baird and Patrick O’Connell. 
+						Eilish is of Irish and Scottish descent. She was raised in Los Angeles' Highland Park. She was homeschooled her whole life, 
+						and joined the Los Angeles Children's Chorus at age eight. Eilish said she has been singing since childhood and began writing songs at age 11, 
+						taking after her elder brother Finneas O'Connell who was already writing, performing and producing his own songs with his band.
+						</p>
+					</div>
+	
+					<div class="col col-wrapper">
+						<p> Eilish and her brother Finneas, who produces most of her musics, collaborate on songwriting. She said Finneas, who also performs with her on live shows,
+							is her partner in making music. Eilish and her brother "like to completely make up things and become characters" and "have songs that are really 
+							fictional”. Eilish said a number of the songs they write also derive from her experiences: "A lot of the time we go through the same 
+							stuff, so it's a mixture of what he's going through and what I'm going through. 
+						</p>
+					</div>
 				</div>
-			</div>
-
-			<div class="row row-space align-items-center album02">
-				<div class="col col-wrapper aligned-right">
-					<img src="img/home-page/music/music-01.png" alt="" class="image-album"></img>
-				</div>
+			<section>
 		
-				<div class="col col-wrapper album-description">
-					<h4> WHEN WE ALL FALL ASLEEP,<br> 
-						 WHERE DO WE GO?</h4>
-					<p> <em> MARCH 29, 2019</em> / release date <br>
-						<em>LP</em> / format <br>
-						<em>DARKROOM, INTERSCOPE</em> / label <br>
-						<em>ELECTROPOP</em> / genres
-					</p>
-				</div>
-			</div>
+			<!-- music -->
+			<section class="music music-wrapper">		
+					<div class="music-description">
+							 
 
-
-		<section>
-
-
-	<!-- gallery -->
-		<section id="gallery">		
-			<div class="gallery-description">
-				<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor<br>
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br> 
-					commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-				</h3>
-			</div>
-
-			<div class="gallery gallery-wrapper">
-				<div class="row">
-					<div class="col-sm">
-						<img src="img/home-page/gallery/image01-1.png" style="transform:rotate(-2deg); transform:translate(px,0px);  ">
+						<h2>Billie Eilish’s meteoric rise to global stardom has been nothing short of phenomenal <br>
+							and arguably unparalleled to date. Billie Eilish has quietly, yet unapologetically infiltrated <br> 
+							the forefront of pop since her ‘Ocean Eyes’ debut in 2017 . 
+						</h2>
+		
+						<p> Thanks to a growing legion of loyal followers across the globe, an EP that has sat in the Billboard Top 200 for more than<br>
+							18 months now, more than 5 billion combined streams globally, and tours that have sold out consecutively around the world, <br>
+						</p>	
 					</div>
-							
-					<div class="col-sm">
-						<img src="img/home-page/gallery/image01-2.png" style="transform:rotate(1deg);">
+		
+					<div class="row row-space align-items-center album01">
+						<div class="col col-wrapper aligned-right">
+							<img src="img/about/music/music-02-scratch.png" onmouseenter="this.src = 'img/about/music/music-02-scratch.gif';"  class="image-album image-album-scratch-02"></img>
+							<img src="img/about/music/music-02.png" alt="" class="image-album"></img>
+						</div>
+			
+						<div class="col col-wrapper album-description">
+							<h3> DONT SMILE AT ME</h4>
+							<p> <em>JULY 28, 2017</em> / release date <br>
+								<em>EP</em> / format <br>
+								<em>INTERSCOPE</em> / label <br>
+								<em>ELECTROPOP</em> / genres
+							</p>
+						</div>
 					</div>
+		
+					<div class="row row-space align-items-center album02">
+						<div class="col col-wrapper aligned-right">
+							<img src="img/about/music/music-01-scratch.png" onmouseenter="this.src = 'img/about/music/music-01-scratch.gif';"  class="image-album image-album-scratch-01"></img>
+							<img src="img/about/music/music-01.png" alt="" class="image-album"></img>
+						</div>
+				
+						<div class="col col-wrapper album-description">
+							<h3> WHEN WE ALL FALL ASLEEP,<br> 
+								 WHERE DO WE GO?</h4>
+							<p> <em> MARCH 29, 2019</em> / release date <br>
+								<em>LP</em> / format <br>
+								<em>DARKROOM, INTERSCOPE</em> / label <br>
+								<em>ELECTROPOP</em> / genres
+							</p>
+						</div>
+					</div>
+		
+		
+				<section>	
+			
+			<!-- gallery -->
+			<section >		
+				<div class="gallery-description">
+						   
+					<h2>Despite the attention, Eilish is doing her best to stake out a space of freedom and fluidity,<br>
+						expanding her range of collaborators and dodging easy definition. “If people think I have a sound,<br> 
+						if someone asks you what my sound is and you have an answer for them—you’re wrong,”<br>
 						
-					<div class="col-sm">
-						<img src="img/home-page/gallery/image01-3.png" style="transform:rotate(1deg);">
-					</div>
+					</h2>
 				</div>
-						
-				<div class="row">
-					<div class="col-sm">
-						<img src="img/home-page/gallery/image02-1.png" style="transform:rotate(1deg);">
-					</div>
+	
+				<div class="gallery gallery-wrapper">
+					<div class="row">
+						<div class="col-sm">
+							<img src="img/about/gallery/image01-1-bw.png" style="transform:rotate(-2deg);" onmouseenter="this.src = 'img/about/gallery/image01-1.png';" onmouseleave="this.src = 'img/about/gallery/image01-1-bw.png';">
+						</div>
 								
-					<div class="col-sm">
-						<img src="img/home-page/gallery/image02-2.png" style="transform:rotate(-2deg);">
+						<div class="col-sm">
+							<img src="img/about/gallery/image01-2-bw.png" style="transform:rotate(1deg);" onmouseenter="this.src = 'img/about/gallery/image01-2.png';" onmouseleave="this.src = 'img/about/gallery/image01-2-bw.png';">
+						</div>
+							
+						<div class="col-sm">
+							<img src="img/about/gallery/image01-3-bw.png" style="transform:rotate(1deg);" onmouseenter="this.src = 'img/about/gallery/image01-3.png';" onmouseleave="this.src = 'img/about/gallery/image01-3-bw.png';">
+						</div>
 					</div>
 							
-					<div class="col-sm">
-						<img src="img/home-page/gallery/image02-3.png" style="transform:rotate(2deg);">
-					</div>
-				</div>
-						
-				<div class="row">
-					<div class="col-sm">
-						<img src="img/home-page/gallery/image03-1.png" style="transform:rotate(-2deg);">
-					</div>
+					<div class="row">
+						<div class="col-sm">
+							<img src="img/about/gallery/image02-1-bw.png" style="transform:rotate(1deg);" onmouseenter="this.src = 'img/about/gallery/image02-1.png';" onmouseleave="this.src = 'img/about/gallery/image02-1-bw.png';">
+						</div>
 									
-					<div class="col-sm">
-						<img src="img/home-page/gallery/image03-2.png" style="transform:rotate(1deg);">
-					</div>
+						<div class="col-sm">
+							<img src="img/about/gallery/image02-2-bw.png" style="transform:rotate(-2deg);" onmouseenter="this.src = 'img/about/gallery/image02-2.png';" onmouseleave="this.src = 'img/about/gallery/image02-2-bw.png';">
+						</div>
 								
-					<div class="col-sm">
-						<img src="img/home-page/gallery/image03-3.png" style="transform:rotate(0deg);">
+						<div class="col-sm">
+							<img src="img/about/gallery/image02-3-bw.png" style="transform:rotate(2deg);" onmouseenter="this.src = 'img/about/gallery/image02-3.png';" onmouseleave="this.src = 'img/about/gallery/image02-3-bw.png';">
+						</div>
 					</div>
-				</div>			
-			</div>				
-
-		<section>			
+							
+					<div class="row">
+						<div class="col-sm">
+							<img src="img/about/gallery/image03-1-bw.png" style="transform:rotate(-2deg);" onmouseenter="this.src = 'img/about/gallery/image03-1.png';" onmouseleave="this.src = 'img/about/gallery/image03-1-bw.png';">
+						</div>
+										
+						<div class="col-sm">
+							<img src="img/about/gallery/image03-2-bw.png" style="transform:rotate(1deg);" onmouseenter="this.src = 'img/about/gallery/image03-2.png';" onmouseleave="this.src = 'img/about/gallery/image03-2-bw.png';">
+						</div>
+									
+						<div class="col-sm">
+							<img src="img/about/gallery/image03-3-bw.png" style="transform:rotate(0deg);" onmouseenter="this.src = 'img/about/gallery/image03-3.png';" onmouseleave="this.src = 'img/about/gallery/image03-3-bw.png';">	
+						</div>
+					</div>			
+				</div>				
+	
+			<section>	
+				
+			<!-- Newsletter -->
+			
+			<div class="linebreak">
+					<hr>
+			</div>
+			<section class="newsletter newsletter-wrapper">
+				<div class="container">
+					
+					<div class="row">
+			
+						<!-- Newsletter Content -->
+						<div class="col-xl-6">
+							<div class="newsletter_content">
+								<img src="img/about/subscribe/subscribe-02.svg" alt="subscribe" class="subscribe" onmouseenter="this.src = 'img/about/subscribe/subscribe-02-alt.svg';" onmouseleave="this.src = 'img/about/subscribe/subscribe-02.svg';"></img>
+							</div>
+						</div>
+			
+						<!-- Newsletter Form -->
+						<div class="col-xl-6 nl_col">
+							<div class="newsletter_form_container d-flex flex-column align-items-start justify-content-end">
+								<form action="#" class="newsletter_form" id="newsletter_form">
+									<div class="d-flex flex-row align-items-start justify-content-between">
+										<input type="email" class="newsletter_input" placeholder="Type Your E-mail">
+										<button class="button newsletter_button"><span>subscribe</span></button>
+									</div>
+								</form>
+							</div>
+						</div>
+			
+					</div>
+				</div>
+			</div>	
+					
+	  			
 
 	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="js/scripts.js"></script>

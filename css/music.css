@@ -367,16 +367,16 @@ img
 }
 
 .jp-no-solution{
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 200;
-	line-height: 160%;
+	line-height: 120%;
 	color: #7d7d7d;
 }
 
 .jp-no-solution a{
 	text-decoration: none;
-	font-size: 16px;
-	font-weight: 200;
-	line-height: 160%;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 120%;
 	color: #7d7d7d;
 }

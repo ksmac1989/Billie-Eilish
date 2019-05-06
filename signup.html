@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Sign Up</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/signup.css" type="text/css">
+		<link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+		<link rel="stylesheet" href="https://use.typekit.net/bum4ghw.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+	<!-- navigator -->
+		<nav class="navigation">
+			<a href="#header"><img src="img/nav/billie-eilish-logo.gif" alt="billie-eilish-logo" class="billie-eilish-logo"></a>
+			<ul>
+				<li ><a href="index.html">ABOUT</a></li>
+				<li ><a href="signup.html" id="nav-selected">  SIGN UP </a></li>
+				<li ><a href="tour.html" > TOUR </a></li>
+				<li ><a href="music.html"> MUSIC </a> </li>
+
+			</ul>
+		</nav>
+
+	<!-- header-->
+		<header id="header">		
+			<a href=""><img src="img/signup/page-info/page-info-signup.gif" alt="Page Info" class="page-info"></a>	
+			<div class="slideshow">
+				<div class="slideshow-wrapper">
+
+					<div class="slide">
+							<img src="img/about/header/header-background-04.png">
+					</div>	
+					
+					<div class="slide">
+							<img src="img/about/header/header-background-01.png">
+					</div>
+
+					<div class="slide">
+							<img src="img/about/header/header-background-02.png">
+					</div>
+
+					<div class="slide">
+							<img src="img/about/header/header-background-03.png">
+					</div>
+			</div>
+			
+			<a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+			<a class="next" onclick="plusDivs(1)">&#10095;</a>
+		</header>	
+	
+
+		<!-- Sign Up -->
+		<section id="signup-form" class="signup-form signup-form-wrapper">		
+
+			<!-- Sign Up Form -->
+			<div class="col-xl-6">
+					<div class="subscribe-content">
+						<img src="img/about/subscribe/subscribe-02.svg" alt="subscribe" class="subscribe" onmouseenter="this.src = 'img/about/subscribe/subscribe-02-alt.svg';" onmouseleave="this.src = 'img/about/subscribe/subscribe-02.svg';"></img>
+					</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+						<div class="col-lg-7">
+							<div class="subscribe-description">
+									<p>Provide your username, email address and password to receive the latest updates from Billie Eilish including news, events, and product updates.</p>
+							</div>
+						</div>
+			
+			
+						<div class="col-lg-5">
+								<div class="container" >
+										<div class="col-md-6" >
+										<div id="logbox">
+											<form id="signup" method="post">
+												
+												<input name="username" 
+													type="username"
+													placeholder="Username"
+													class="input name"/>
+												<input name="email"
+													type="email"
+													placeholder="Email address"
+													class="input email"/>
+												<input name="password"
+													type="password"
+													placeholder="Password"
+													class="input pass"/>
+													
+												<a href="signup-complete.html"><input type="submit" value="subscribe" class="inputButton"/> </ahref>
+						
+											</form>
+										</div>
+										</div>
+									</div>
+						</div>
+				</div>
+			</div>
+			
+
+
+			</section>
+
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/signup.js"></script>
+
+</body>
+</html>
+
+
